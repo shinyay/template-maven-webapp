@@ -43,6 +43,7 @@
                 <version>3.1.0</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
                     <packagingExcludes>
                       %regex[WEB-INF/lib/javax.servlet-api-.*.jar]
                     </packagingExcludes>
