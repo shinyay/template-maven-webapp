@@ -34,9 +34,6 @@ function usage() {
 $(basename ${0}) is a tool for ...
 Usage:
   $(basename ${0}) [GROUP_ID] [ARTIFACT_ID]
-Options:
-  --version, -v     print $(basename ${0}) ${version}
-  --help, -h        print help
 EOF
 }
 
